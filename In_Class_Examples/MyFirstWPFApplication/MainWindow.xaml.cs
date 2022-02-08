@@ -23,8 +23,6 @@ namespace MyFirstWPFApplication
         public MainWindow()
         {
             InitializeComponent();
-
-            Label myLabel = new Label();
         }
     }
 }
