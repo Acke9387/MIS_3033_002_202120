@@ -1,0 +1,20 @@
+﻿<Window x:Class="WPF_VowelsAndConsonants.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_VowelsAndConsonants"
+        mc:Ignorable="d"
+        Title="Vowels and Consonants" Height="450" Width="800">
+    <Grid>
+        <Label Content="Vowels &amp; Consonants" HorizontalAlignment="Left" Margin="254,42,0,0" VerticalAlignment="Top" Width="263" FontSize="24"/>
+        <Label Content="Please enter a word:" HorizontalAlignment="Left" Margin="59,125,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtInput" HorizontalAlignment="Left" Margin="180,129,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Vowels" HorizontalAlignment="Left" Margin="34,170,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="lstVowels" d:ItemsSource="{d:SampleData ItemCount=5}" Height="217" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="386"/>
+        <Label Content="Consonants" HorizontalAlignment="Left" Margin="438,170,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="lstConsonants" d:ItemsSource="{d:SampleData ItemCount=5}" Height="217" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="386" Margin="0,0,10,0"/>
+        <Button x:Name="btnGo" Content="Go!" HorizontalAlignment="Center" Margin="0,118,0,0" VerticalAlignment="Top" Height="40" Width="104" Click="btnGo_Click"/>
+
+    </Grid>
+</Window>
