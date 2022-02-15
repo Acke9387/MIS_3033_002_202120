@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFirstWPFApplication", "MyFirstWPFApplication\MyFirstWPFApplication.csproj", "{43F56403-5BE9-4147-A9CD-D1438439450A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-ReadingFilesAndProcessingData", "WPF-ReadingFilesAndProcessingData\WPF-ReadingFilesAndProcessingData.csproj", "{D9CB3C20-361F-439B-9122-48989989115B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF-ReadingFilesAndProcessingData", "WPF-ReadingFilesAndProcessingData\WPF-ReadingFilesAndProcessingData.csproj", "{D9CB3C20-361F-439B-9122-48989989115B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-JSON", "WPF-JSON\WPF-JSON.csproj", "{465DB11A-761C-4683-AADA-1E103952561C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D9CB3C20-361F-439B-9122-48989989115B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9CB3C20-361F-439B-9122-48989989115B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9CB3C20-361F-439B-9122-48989989115B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{465DB11A-761C-4683-AADA-1E103952561C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{465DB11A-761C-4683-AADA-1E103952561C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{465DB11A-761C-4683-AADA-1E103952561C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{465DB11A-761C-4683-AADA-1E103952561C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
