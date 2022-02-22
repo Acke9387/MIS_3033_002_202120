@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF-JSON", "WPF-JSON\WPF-JS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON-FromAFile", "JSON-FromAFile\JSON-FromAFile.csproj", "{EE64E7FA-7466-47CE-8C30-C9870C41F1B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON-Webservices_RickAndMorty", "JSON-Webservices_RickAndMorty\JSON-Webservices_RickAndMorty.csproj", "{3A2DC6E1-FF28-4C9C-A3E5-5CE905C17079}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{EE64E7FA-7466-47CE-8C30-C9870C41F1B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE64E7FA-7466-47CE-8C30-C9870C41F1B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE64E7FA-7466-47CE-8C30-C9870C41F1B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A2DC6E1-FF28-4C9C-A3E5-5CE905C17079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A2DC6E1-FF28-4C9C-A3E5-5CE905C17079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A2DC6E1-FF28-4C9C-A3E5-5CE905C17079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A2DC6E1-FF28-4C9C-A3E5-5CE905C17079}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

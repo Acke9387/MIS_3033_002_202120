@@ -1,0 +1,14 @@
+﻿<Window x:Class="JSON_Webservices_RickAndMorty.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JSON_Webservices_RickAndMorty"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="lstCharacters" Height="256" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,178,0,0" Width="463" SelectionChanged="lstCharacters_SelectionChanged"/>
+        <Image x:Name="imgCharacter" Margin="0,183,1,3" HorizontalAlignment="Right" Width="328"/>
+
+    </Grid>
+</Window>
