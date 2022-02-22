@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFirstWPFApplication", "My
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF-ReadingFilesAndProcessingData", "WPF-ReadingFilesAndProcessingData\WPF-ReadingFilesAndProcessingData.csproj", "{D9CB3C20-361F-439B-9122-48989989115B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-JSON", "WPF-JSON\WPF-JSON.csproj", "{465DB11A-761C-4683-AADA-1E103952561C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF-JSON", "WPF-JSON\WPF-JSON.csproj", "{465DB11A-761C-4683-AADA-1E103952561C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON-FromAFile", "JSON-FromAFile\JSON-FromAFile.csproj", "{EE64E7FA-7466-47CE-8C30-C9870C41F1B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{465DB11A-761C-4683-AADA-1E103952561C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{465DB11A-761C-4683-AADA-1E103952561C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{465DB11A-761C-4683-AADA-1E103952561C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE64E7FA-7466-47CE-8C30-C9870C41F1B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE64E7FA-7466-47CE-8C30-C9870C41F1B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE64E7FA-7466-47CE-8C30-C9870C41F1B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE64E7FA-7466-47CE-8C30-C9870C41F1B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
