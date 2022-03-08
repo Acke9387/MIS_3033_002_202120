@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ListBox x:Name="lstCharacters" Height="256" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,178,0,0" Width="463" SelectionChanged="lstCharacters_SelectionChanged"/>
+        <ListBox x:Name="lstCharacters" HorizontalAlignment="Left" Margin="0,168,0,10" Width="463" SelectionChanged="lstCharacters_SelectionChanged"/>
         <Image x:Name="imgCharacter" Margin="0,183,1,3" HorizontalAlignment="Right" Width="328"/>
 
     </Grid>
