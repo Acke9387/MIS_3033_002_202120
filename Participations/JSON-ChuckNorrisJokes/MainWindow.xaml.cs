@@ -15,6 +15,12 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+/*
+ * 
+ * 
+ * @Author Professor Ackerman
+ */
+
 namespace JSON_ChuckNorrisJokes
 {
     /// <summary>
