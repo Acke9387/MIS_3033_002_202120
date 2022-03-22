@@ -1,0 +1,23 @@
+﻿<Window x:Class="JSON_PokemonAPI.PokemonInfoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JSON_PokemonAPI"
+        mc:Ignorable="d"
+        Title="PokemonInfoWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="lblTitle" Content="Label" HorizontalAlignment="Left" Margin="199,10,0,0" VerticalAlignment="Top" Width="460" Height="71" FontSize="48"/>
+        <Label Content="Height:" HorizontalAlignment="Left" Margin="39,123,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtHeight" HorizontalAlignment="Left" Margin="104,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Label Content="Weight:" HorizontalAlignment="Left" Margin="39,157,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtWeight" HorizontalAlignment="Left" Margin="104,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <Image x:Name="imgPicture" Margin="379,86,1,3"/>
+        <Button x:Name="btnDance" Content="" HorizontalAlignment="Left" Margin="122,270,0,0" VerticalAlignment="Top" Height="105" Width="102" Click="btnDance_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5TUchUCu76l6mzcCuiWf59kW-D6sWM6U3uw&amp;usqp=CAU"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>
