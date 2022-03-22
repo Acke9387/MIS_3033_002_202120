@@ -33,18 +33,23 @@ namespace JSON_Webservices_RickAndMorty
             //HttpClient client = new HttpClient();
 
             //client.Dispose();
-
-            using (var client = new HttpClient())
+            RickAndMortyAPI api;
+            do
             {
-                json = client.GetStringAsync(url).Result;
-
-                RickAndMortyAPI api = JsonConvert.DeserializeObject<RickAndMortyAPI>(json);
-
-                foreach (var character in api.results)
+                using (var client = new HttpClient())
                 {
-                    lstCharacters.Items.Add(character);
+                    json = client.GetStringAsync(url).Result;
+
+                    api = JsonConvert.DeserializeObject<RickAndMortyAPI>(json);
+
+                    foreach (var character in api.results)
+                    {
+                        lstCharacters.Items.Add(character);
+                    }
                 }
-            }
+
+                url = api.info.next;
+            } while (api.info.next != null);
 
         }
 
